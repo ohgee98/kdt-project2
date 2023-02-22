@@ -34,9 +34,7 @@ public class Email {
 
     @Override
     public String toString() {
-        return "Email{" +
-                "address='" + address + '\'' +
-                '}';
+        return address;
     }
 
     public String getAddress() {
